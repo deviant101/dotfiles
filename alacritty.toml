@@ -1,0 +1,41 @@
+import = [
+  # uncomment the flavour you want below:
+  # "~/.config/alacritty/catppuccin-latte.toml"
+  # "~/.config/alacritty/catppuccin-frappe.toml"
+  # "~/.config/alacritty/catppuccin-macchiato.toml"
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[scrolling]
+  history = 10000
+  multiplier = 10
+
+[font]
+
+  #normal = { family = "Fira Codei Script", style = "Medium" }
+
+  normal = { family = "JetBrains Mono Nerd Font", style = "Medium" }
+  bold = { family = "JetBrains Mono Nerd Font", style = "Bold" }
+  italic = { family = "JetBrains Mono Nerd Font", style = "MediumItalic" }
+  bold_italic = { family = "JetBrains Mono Nerd Font", style = "BoldItalic" }
+  size = 15
+
+[window]
+  dimensions = { columns = 120, lines = 30 }
+  opacity = 0.9
+  # decorations = "none"
+  # startup_mode = "Maximized"
+
+[window.padding]
+  x = 15
+  y = 10
+
+[cursor]
+  style = { shape = "Block", blinking = "Always" }
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Control"
+chars = "\u001b\u007f"
+
+# put this file in ~/.config/alacritty directory
