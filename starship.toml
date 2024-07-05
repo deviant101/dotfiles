@@ -1,0 +1,9 @@
+# ~/.config/starship.toml
+
+# [terraform]
+# format = '[󱁢  $version$workspace]($style) '
+
+[terraform]
+format = '[󱁢 $workspace]($style) '
+
+# put this file in ~/.config/ directory
