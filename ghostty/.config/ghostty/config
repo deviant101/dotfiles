@@ -1,0 +1,59 @@
+# By default Reload config with shft + cmd + , 
+# config-file = themes/rosepine
+term = xterm-256color
+theme = catppuccin-mocha
+
+background = #000000
+background-opacity = 0.85
+
+# font-family = JetBrainsMonoNL Nerd Font
+font-family = FiraCode Nerd Font
+font-thicken = true
+font-size = 13.5
+cursor-style = block
+cursor-style-blink = true
+cursor-invert-fg-bg = true
+
+# mouse-hide-while-typing = true
+
+window-decoration = false
+window-height = 35
+window-width = 130
+window-padding-x = 12
+window-padding-y = 12
+
+auto-update = check
+auto-update-channel = stable
+
+# extras
+shell-integration-features = no-cursor
+copy-on-select = clipboard
+
+# Custom Keybinds & Config
+# For Simple Keybinds
+keybind = super+r=reload_config 
+keybind = super+i=inspector:toggle
+keybind = ctrl+f>n=new_tab
+# keybind = super+b>n=new_window
+
+# tab nav
+# keybind = super+b>1=goto_tab:1
+# keybind = super+b>2=goto_tab:2
+# keybind = super+b>3=goto_tab:3
+# keybind = super+b>4=goto_tab:4
+# keybind = super+b>5=goto_tab:5
+# keybind = super+b>6=goto_tab:6
+# keybind = super+b>7=goto_tab:7
+# keybind = super+b>8=goto_tab:8
+# keybind = super+b>9=goto_tab:9
+
+# splitting
+keybind = ctrl+f>k=new_split:right
+keybind = ctrl+f>j=new_split:down
+keybind = ctrl+f>e=equalize_splits
+
+# split nav (setting this to control will not work if tmux already uses it)
+keybind = ctrl+q>h=goto_split:left
+keybind = ctrl+q>j=goto_split:bottom
+keybind = ctrl+q>k=goto_split:top
+keybind = ctrl+q>l=goto_split:right
